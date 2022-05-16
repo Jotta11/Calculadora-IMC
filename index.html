@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="imc.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="top-container">
+            <div class="clock" style="font-size: 19px;padding-top: 17px;padding-left: 27px;">
+                <span class="hour">04</span>:<span class="minute">20</span>
+            </div>
+            <div class="status" style="padding-top: 15px;padding-right: 17px ;width: 73
+            px;">
+                <img src="./status.png" alt="status">
+            </div>
+            <div class="logo">
+                <img src="./logo.png" alt="logo">
+            </div>
+        </div>
+        <div class="form">
+            <div id="Peso" style="color: #ffff;">Peso(Kg)</div>
+            <input type="text" id="txtPeso" placeholder="Ex: 70.2"><br><br>
+            <div id="Altura" style="color: #ffff;">Altura(m)</div>
+            <input type="text" id="txtAltura" placeholder="Ex: 1.72"><br>
+            <input type="submit" value="Calcular" class="calcular" onclick="calcular()">
+        </div>
+        <p id="resultado">.</p>
+        <div class="categorias">
+            <div id="abaixo">ABAIXO DO PESO</div>
+            <div id="normal">PESO NORMAL</div>
+            <div id="sobrepeso">SOBREPESO</div>
+            <div id="obesidade">OBESIDADE</div>
+            <div id="severa">OBESIDADE SEVERA</div>
+            <div id="morbida">OBESIDADE MÓRBIDA</div>
+        </div>
+        <div class="botton"></div>
+    </div>
+</body>
+
+</html>
